@@ -1,12 +1,12 @@
-const insert = document.getElementById('insert')
+const insert = document.getElementById("insert");
 
-window.addEventListener('keydown',(event) => {
-    console.log(event.key);
-    console.log(event.keyCode);
-    console.log(event.code);
-    console.log(event.which);
+window.addEventListener("keydown", (event) => {
+  console.log(event.key);
+  console.log(event.keyCode);
+  console.log(event.code);
+  console.log(event.which);
 
-    insert.innerHTML = `
+  insert.innerHTML = `
     <div class="key">
        ${event.keyCode} 
       <small>event.keycode</small>
